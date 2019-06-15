@@ -61,7 +61,7 @@ pipeline {
             }
         }
 	}
-/*	  stage('Deploy') {
+	  stage('Deploy') {
           agent { label "appserver" }
 			steps {
 //			    script {
@@ -73,7 +73,7 @@ pipeline {
 					sh '/opt/tomcat/bin/catalina.sh run'
 
             }
-         } */
+         }
     }
 }
 
